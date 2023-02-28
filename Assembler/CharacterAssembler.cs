@@ -433,7 +433,7 @@ namespace Rbx2Source.Assembler
             string userName = FileUtility.MakeNameWindowsSafe(userInfo.Username);
 
             string appData = Environment.GetEnvironmentVariable("LocalAppData");
-            string rbx2Src = Path.Combine(appData, "Rbx2Source");
+            string rbx2Src = Path.Combine(appData, "LazyBirb/Rbx2Source");
             string avatars = Path.Combine(rbx2Src, "Avatars");
             string userBin = Path.Combine(avatars, userName);
 
@@ -454,7 +454,7 @@ namespace Rbx2Source.Assembler
 
 
             Random rnd = new Random();
-            int randomInt = rnd.Next(1, 1001);
+            int randomInt = rnd.Next(1, 1000001);
 
             string compileDir = "roblox_avatars/" + userName + "_" + randomInt;
 

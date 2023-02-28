@@ -120,6 +120,11 @@
     <Compile Include="Geometry\Types\BoneWeights.cs" />
     <Compile Include="Geometry\Types\MeshBone.cs" />
     <Compile Include="Geometry\Types\SkinData.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
     <Compile Include="QuakeC\QuakeCItem.cs" />
     <Compile Include="QuakeC\QuakeCWriter.cs" />
     <Compile Include="Resources\Formatting.cs" />
@@ -233,6 +238,10 @@
     <EmbeddedResource Include="Resources\AvatarData\R6\Compositing\CompositShirtTemplate.mesh" />
     <EmbeddedResource Include="Resources\AvatarData\R15\CharacterBase.rbxm" />
     <EmbeddedResource Include="Resources\AvatarData\R6\CharacterBase.rbxm" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
     <None Include="web.config" />
     <EmbeddedResource Include="Resources\Meshes\StandardLimbs\leftarm.mesh" />
     <EmbeddedResource Include="Resources\Meshes\StandardLimbs\leftleg.mesh" />

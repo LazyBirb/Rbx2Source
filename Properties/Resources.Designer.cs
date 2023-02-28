@@ -81,6 +81,15 @@ namespace Rbx2Source.Properties {
         }
         
         /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die 0 ähnelt.
+        /// </summary>
+        internal static string AvatarCount {
+            get {
+                return ResourceManager.GetString("AvatarCount", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap BrokenPreview {
